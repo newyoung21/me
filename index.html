@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <title>darren - Impress demo</title>
+        <meta charset="utf-8" />
+          <link href="css/demo.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="impress-supported">
+            <div class="fallback-message">
+                <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+                <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+            </div>
+        </div>
+             <div class="nav">
+            <a href="">首页</a>
+            <a href="">关于我</a>
+            <a href="">专业技能</a>
+            <a href="">我的作品</a>
+            <a href="">个人博客</a>
+        </div>
+        <div id="impress">
+            <div class="step index" data-x="0" data-y="0">
+                <div class="me">
+                    <img src="image/uu.jpg">
+                </div>
+                <p><strong>我叫林越</strong></br>26岁</p>
+                <p>想成为一名前端开发工程师</p>
+                <p class="size">"勇气就是怕的要死，但仍驭马前征"</p>
+            </div>
+            <div class="step about" data-x="1400" data-y="0" data-rotate="180" >
+                  <p class="p"><strong>关于我</strong></p>
+                  <div class="back">
+                         <fieldset>
+                             <legend>个人信息</legend>
+                                 <p>所在地：广东 深圳</p>
+                                 <p>学历：大专，2011年毕业与某某名牌大学</p>
+                                 <p>电话：15002099366</p>   
+                         </fieldset>
+                         <fieldset>
+                             <legend>社会经历</legend>
+                                <p>2012入职华润万家电器部员工</p>
+                                <p>2014年任命为深圳华润万家大鹏店电器部经理</br>2015年6月申请离职</p>
+                                <p>离职期间购买饥人谷前端培训机构整套视频，系统学习前端知识体系</p>
+                               
+                         </fieldset>
+                         <fieldset>
+                             <legend>兴趣爱好</legend>
+                             <p>看书，打球，跑步</p>
+                             <p>工作之余喜欢钻研web前端技术</br>对日新月异的互联网时代和web前端技术甚为入迷</p>
+                         </fieldset>
+                 
+                  </div>
+                  
+            </div>
+            <div class="step major"data-x="1400" data-y="1200" data-rotate="180"  >
+                <p class="title">专业技能</p>
+                <div>
+                    <div class="major-content">CSS</div>
+                    <div class="major-content">HTML5</div>
+                </div>
+                <div>
+                    <div class="major-content">JavaScript</div>
+                    <div class="major-content">jQuery</div>
+                    <div class="major-content">PHP</div>
+                </div>
+            </div>
+            <div class="step tool"data-x="0" data-y="1200"data-scale="1" data-rotate="90">
+                <p class="title">开发环境</p>
+                <div>
+                    <div class="tool-b">
+                        <p class="tool-p">调试工具</p>
+                        <p class="anim">chrome调试台</p>
+                    </div>
+                    <div class="tool-b">
+                        <p class="tool-p">开发工具</p>
+                        <p class="anim">sublime</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="tool-b">
+                        <p class="tool-p">代码管理工具</p>
+                        <p class="anim">github  svn</p>  
+                    </div>          
+               </div>
+               <div>
+                   <div class="tool-b">
+                        <p class="tool-p">其他工具</p>
+                        <p class="anim">npm</p>
+                   </div>
+                   <div class="tool-b">
+                        <p class="tool-p">构建工具</p>
+                        <p class="anim">grunt</p>
+                   </div>
+               </div>
+                
+            </div>
+            <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+        </div>
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+body{
+	background-color: rgb(37, 37, 37);
+    color: white;
+
+}
+
+#overview { display: none }
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.nav{
+	position: fixed;
+	background-color: #F5F7F6;
+    border-radius: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    right: 0;
+    opacity: 0.5;
+}
+.nav a{
+	text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.index{
+	width: 900px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+
+.step .me{
+	width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 150px;
+    margin: 0 auto;;
+}
+.step .me img{
+	width: 300px;
+    height: 300px;
+}
+.size{
+background-image: url();
+}
+
+.step.about{
+	background-color: #5F2323;
+    border-radius: 10px;
+    width: 700px;
+    padding: 20px 40px;
+}
+.step.about fieldset{
+    border-radius: 10px;
+    border: 5px solid #E8300A;
+    color: #FDFDFD;
+    margin: 20px;
+}
+
+.step.about fieldset legend{
+    font-family: "华文彩云";
+}
+.about .back{
+    background-color: #4E3232;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 18px;
+}
+.about .p{
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    color: #0AF7CD;
+}
+
+.step.major{
+    width: 600px;
+    color: white;
+    text-align: center;
+}
+.title{
+    font-size: 38px;
+    font-family: Lato,"Microsoft YaHei",sans-serif;
+    text-shadow: 1px 2px #887E7E,2px 4px #6D6F6F;
+}
+.major-content{
+    display: inline-block;
+    background-color: #0894B1;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.tool{
+    width: 500px;
+    text-align: center;
+
+}
+@-webkit-keyframes pulse {
+ from {
+   opacity: 0.0;
+   font-size: 100%;
+ }
+ to {
+   opacity: 1.0;
+   font-size: 200%;
+ }
+}
+
+.anim{
+    -webkit-animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.tool-b{
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #A5737A;
+    color: #E1E2B2;
+}
+.tool-p{
+    font-size: 24px;
+    font-family: "华文彩云";
+    
+}
