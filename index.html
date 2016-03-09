@@ -3,9 +3,9 @@
     <head>
         <title>darren - Impress demo</title>
         <meta charset="utf-8" />
-          <link href="css/demo.css" rel="stylesheet" />
+        <link href="css/demo.css" rel="stylesheet" />
     </head>
-    <body>
+    <body >
         <div class="impress-supported">
             <div class="fallback-message">
                 <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
@@ -13,14 +13,14 @@
             </div>
         </div>
              <div class="nav">
-            <a href="#/step-1">首页</a>
+            <a href="#/bored">首页</a>
             <a href="#/step-2">关于我</a>
             <a href="#/step-3">专业技能</a>
             <a href="#/step-5">我的作品</a>
             <a href="#/step-6">个人博客</a>
         </div>
         <div id="impress">
-            <div class="step index" data-x="0" data-y="0">
+            <div id="bored" class="step index" data-x="0" data-y="0">
                 <div class="me">
                     <img src="image/uu.jpg">
                 </div>
@@ -125,6 +125,14 @@
             </div>
             <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
         </div>
+        <div class="hint">
+                    <p>使用空格键或箭头键浏览</p>
+        </div>
+        <script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
         <script src="js/impress.js"></script>
         <script>impress().init();</script>
     </body>
