@@ -51,7 +51,7 @@ body{
 	font-size: 24px;
 }
 
-.step .me{
+ .me{
 	width: 300px;
     height: 300px;
     overflow: hidden;
@@ -115,7 +115,7 @@ background-image: url();
 }
 
 .tool{
-    width: 500px;
+    width: 650px;
     text-align: center;
 
 }
@@ -151,3 +151,24 @@ background-image: url();
     font-family: "华文彩云";
     
 }
+
+.float{
+    float: left;
+}
+.float .mar{
+    margin-right: 40px;
+}
+.tool a{
+    text-decoration: blink;
+    font-size: 28px;
+    color: #08C5F3;
+}
+.float a:hover{
+    color: red;
+}
+
+.d{
+     font-size: 28px;
+    color: #06DDF5;
+}
+
