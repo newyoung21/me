@@ -174,24 +174,29 @@ background-image: url();
 
 
 .hint {
-  
     display: none;
 
-   
     position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
-    color: #585555;
+    background: rgba(0,0,0,0.5);
+    color: #383636;
     text-align: center;
 
-    font-size: 32px;
-    padding: 20px;
+    font-size: 28px;
 
     z-index: 100;
 
-
     opacity: 0;
 
-    
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+
     -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
     -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
     -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
@@ -199,17 +204,16 @@ background-image: url();
     transition:         opacity 1s,         transform 0.5s 1s;
 }
 
-
 .impress-enabled .hint { display: block }
 
 .impress-on-bored .hint {
     opacity: 1;
 
-    -webkit-transform: translate(-600px,-400px);
-    -moz-transform:    translate(-600px,-400px);
-    -ms-transform:    translate(-600px,-400px);
-    -o-transform:     translate(-600px,-400px);
-    transform:         translate(-600px,-400px);
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
 
     -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
     -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
