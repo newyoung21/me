@@ -129,6 +129,27 @@ background-image: url();
    font-size: 200%;
  }
 }
+@-moz-keyframes pulse {
+ from {
+   opacity: 0.0;
+   font-size: 100%;
+ }
+ to {
+   opacity: 1.0;
+   font-size: 200%;
+ }
+}
+
+@-o-keyframes pulse {
+ from {
+   opacity: 0.0;
+   font-size: 100%;
+ }
+ to {
+   opacity: 1.0;
+   font-size: 200%;
+ }
+}
 
 .anim{
     -webkit-animation-name: pulse;
@@ -136,7 +157,21 @@ background-image: url();
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
+
+  -moz-animation-name: pulse;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: pulse;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-direction: alternate;
 }
+
+
 
 .tool-b{
     width: 200px;
