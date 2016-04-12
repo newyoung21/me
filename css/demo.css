@@ -115,9 +115,18 @@ background-image: url();
 }
 
 .tool{
-    width: 650px;
+    width: 860px;
     text-align: center;
 
+}
+.tool2{
+  width: 700px;
+  text-align: center;
+}
+
+.img{
+  border-radius: 20px;
+  border:5px solid rgba(25, 249, 10, 0.91);
 }
 @-webkit-keyframes pulse {
  from {
@@ -194,6 +203,11 @@ background-image: url();
     margin-right: 40px;
 }
 .tool a{
+    text-decoration: blink;
+    font-size: 28px;
+    color: #08C5F3;
+}
+.tool2 a{
     text-decoration: blink;
     font-size: 28px;
     color: #08C5F3;
