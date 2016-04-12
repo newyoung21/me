@@ -49,6 +49,7 @@ body{
 	text-align: center;
 	color: white;
 	font-size: 24px;
+  margin: 0 auto;
 }
 
  .me{
@@ -71,6 +72,7 @@ background-image: url();
     border-radius: 10px;
     width: 700px;
     padding: 20px 40px;
+    margin: 0 auto;
 }
 .step.about fieldset{
     border-radius: 10px;
@@ -99,6 +101,7 @@ background-image: url();
     width: 600px;
     color: white;
     text-align: center;
+    margin: 0 auto;
 }
 .title{
     font-size: 38px;
@@ -117,11 +120,13 @@ background-image: url();
 .tool{
     width: 860px;
     text-align: center;
+    margin: 0 auto;
 
 }
 .tool2{
-  width: 700px;
+  width: 680px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .img{
